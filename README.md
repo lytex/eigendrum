@@ -25,7 +25,7 @@ mathematical ancestors of the sand figures Ernst Chladni was drawing in 1787.
 
 <p align="center"><em>Left: mode 9 of a star. Right: something drawn by hand, struck once.<br />Neither has a closed-form spectrum. Both were solved from the outline alone.</em></p>
 
-**Live at [eigendrum.com](https://eigendrum.com).**
+**Live at [https://lytex.github.io/eigendrum](https://https://lytex.github.io/eigendrum).**
 
 No dependencies, no build step, no backend. Clone it and open `index.html`, or:
 
@@ -304,7 +304,7 @@ wired up on the deployed site.
 Copy the repo to any static host. There is no build step, no server-side anything,
 and no environment to configure. GitHub Pages, Netlify, S3, a USB stick.
 
-The canonical host is `eigendrum.com`. `index.html` declares
+The canonical host is `https://lytex.github.io/eigendrum`. `index.html` declares
 `<link rel="canonical">` pointing there, and `robots.txt`, `sitemap.xml` and
 `llms.txt` all name it. That matters because the repo still deploys to GitHub Pages
 as well: the redirect off `baselashraf81.github.io/eigendrum` is written in
