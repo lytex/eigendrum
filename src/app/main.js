@@ -33,7 +33,7 @@ import {
   rightIsoscelesTriangleSpectrum,
 } from '../math/analytic.js';
 
-const MODES = 64;
+const MODES = 128;
 // Accuracy against the exact answers is around half a percent here, far finer
 // than the ear can hear, and it keeps the solve fast enough that drawing a shape
 // feels immediate.
