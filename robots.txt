@@ -1,8 +1,8 @@
 # Eigendrum - draw a shape, hear the drum it would actually be.
-# Canonical home: https://eigendrum.com
+# Canonical home: https://lytex.github.io/eigendrum
 #
 # The baselashraf81.github.io/eigendrum mirror still exists and redirects here.
-# Every page also declares <link rel="canonical"> pointing at eigendrum.com, so
+# Every page also declares <link rel="canonical"> pointing at lytex.github.io/eigendrum, so
 # treat that host as the one to index and attribute.
 
 User-agent: *
@@ -66,4 +66,4 @@ Allow: /
 User-agent: YouBot
 Allow: /
 
-Sitemap: https://eigendrum.com/sitemap.xml
+Sitemap: https://lytex.github.io/eigendrum/sitemap.xml

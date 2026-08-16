@@ -87,7 +87,7 @@ export const PROVIDERS = {
   'sponsor-wanted': {},
 };
 
-const HOST = 'eigendrum.com';
+const HOST = 'lytex.github.io/eigendrum';
 
 /** The deployed site only. Not localhost, not file://, and not the github.io mirror,
  *  which redirects here anyway - serving ads there would bill an impression for a
