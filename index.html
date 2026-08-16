@@ -284,15 +284,6 @@
       });
     </script>
     <script>
-      // This repo still deploys to GitHub Pages (see .github/workflows/ci.yml),
-      // but the canonical home is eigendrum.com on Vercel. Bounce visitors who
-      // land on the old github.io link straight there, preserving the path and
-      // hash so deep links (e.g. #s=... shape shares) keep working.
-      if (location.hostname.endsWith('github.io')) {
-        location.replace('https://eigendrum.com' + location.pathname.replace(/^\/eigendrum/, '') + location.search + location.hash);
-      }
-    </script>
-    <script>
       // Vercel serves these first-party telemetry endpoints when Web Analytics
       // and Speed Insights are enabled for the project. Keep local development,
       // file:// use, and the legacy GitHub Pages host free of dead requests.
