@@ -6,11 +6,11 @@
 import { readFileSync, existsSync } from 'node:fs';
 
 const PAGES = [
-  ['index.html', 'https://https://lytex.github.io/eigendrum/'],
-  ['how-it-works.html', 'https://https://lytex.github.io/eigendrum/how-it-works'],
-  ['hearing-the-shape-of-a-drum.html', 'https://https://lytex.github.io/eigendrum/hearing-the-shape-of-a-drum'],
-  ['formulas.html', 'https://https://lytex.github.io/eigendrum/formulas'],
-  ['privacy.html', 'https://https://lytex.github.io/eigendrum/privacy'],
+  ['index.html', 'https://eigendrum.com/'],
+  ['how-it-works.html', 'https://eigendrum.com/how-it-works'],
+  ['hearing-the-shape-of-a-drum.html', 'https://eigendrum.com/hearing-the-shape-of-a-drum'],
+  ['formulas.html', 'https://eigendrum.com/formulas'],
+  ['privacy.html', 'https://eigendrum.com/privacy'],
 ];
 
 const problems = [];
