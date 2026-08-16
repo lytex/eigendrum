@@ -242,7 +242,7 @@ test('overlapping voices can exceed full scale even though a single strike never
   // fifth lower than anything the app can actually produce, and whether six taps
   // 30 ms apart happen to align is a question about the frequency.
   const { mesh, modes, eigenvalues } = solveDrum(regularPolygon(160, 1 / Math.sqrt(Math.PI)), {
-    modes: 16,
+    modes: 64,
     targetNodes: 2200,
   });
   const freqs = frequencies(eigenvalues, 130);
